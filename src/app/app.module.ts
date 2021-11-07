@@ -18,6 +18,8 @@ import { WeComponent } from './we/we.component';
 import { ContactComponent } from './contact/contact.component';
 import { FooterComponent } from './footer/footer.component';
 import { DocumentsBenComponent } from './documents-ben/documents-ben.component';
+import { ItemDetailComponent } from './item-detail/item-detail.component';
+import { CreateItemComponent } from './create-item/create-item.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +37,9 @@ import { DocumentsBenComponent } from './documents-ben/documents-ben.component';
     WeComponent,
     ContactComponent,
     FooterComponent,
-    DocumentsBenComponent
+    DocumentsBenComponent,
+    ItemDetailComponent,
+    CreateItemComponent
   ],
   imports: [
     BrowserModule,

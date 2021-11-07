@@ -9,7 +9,7 @@ export class CardsComponent implements OnInit {
 
 
 
-  lista:string[] = ["uno", "dos", "tres"]
+  lista:string[] = ["uno", "dos", "tres","cuatro","cinco"]
   img:string = 'https://www.ortopedicoswyw.com/file/Producto/3302_PHOTO_2020_09_01_16_27_09.jpg'
 
   //variable:tipodedato = valor 

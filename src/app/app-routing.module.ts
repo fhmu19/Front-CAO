@@ -9,7 +9,9 @@ import { LoginComponent } from './login/login.component';
 import { Page404Component } from './page404/page404.component';
 import { RegisterBenComponent } from './register-ben/register-ben.component';
 import { RegisterDonComponent } from './register-don/register-don.component';
+import { ItemDetailComponent } from './item-detail/item-detail.component';
 import { WeComponent } from './we/we.component';
+import { CreateItemComponent } from './create-item/create-item.component';
 
 const routes: Routes = [
   {path: '', redirectTo: '/home', pathMatch: 'full'},
@@ -22,6 +24,8 @@ const routes: Routes = [
   {path: 'we', component: WeComponent},
   {path: 'contact', component: ContactComponent},
   {path: 'documentsBen', component: DocumentsBenComponent},
+  {path: 'item-detail', component: ItemDetailComponent},
+  {path: 'create-item', component: CreateItemComponent},
   {path: '**', component: Page404Component}
 
 
